@@ -23,18 +23,21 @@
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>3.0.0-M1</version>
+        </plugin>
     </plugins>
   </build>
    <distributionManagement>
         <repository>
             <id>deployment</id>
-            <enabled>true</enabled>
             <name>Internal Releases</name>
             <url>http://13.233.230.62:8081/repository/devops-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
-            <enabled>true</enabled>
+          <id>deployment</id>
             <name>Internal Snapshot Releases</name>
             <url>http://13.233.230.62:8081/repository/devops-snaps/</url>
         </snapshotRepository>
