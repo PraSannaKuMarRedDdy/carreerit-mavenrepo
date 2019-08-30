@@ -15,7 +15,7 @@
       <password>admin123</password>
     </server>
     <server>
-      <id>http://13.233.230.62:8081</id>
+      <id>http://13.232.190.195:8081</id>
       <username>admin</username>
       <password>admin123</password>
     </server>    
@@ -28,7 +28,7 @@
         <repository>
           <id>devops-snaps</id>
           <name>Devops Maven 2 Repository</name>
-          <url>http://13.233.230.62:8081/repository/devops-snaps/</url>
+          <url>http://13.232.190.195:8081/repository/devops-snaps/</url>
           <releases>
             <enabled>false</enabled>
             <updatePolicy>always</updatePolicy>
@@ -48,7 +48,7 @@
     <mirror>
       <id>devops-releases</id>
       <name>central</name>
-      <url>http://13.233.230.62:8081/repository/devops-releases/</url>
+      <url>http://13.232.190.195:8081/repository/devops-releases/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
